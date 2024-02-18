@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd9c75be62.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" class="header">
+        <div class="container">
+            <nav>
+                <img src="img/Dhruv-designstyle-colors-m.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Mern Developer</p>
+                <h1>Hi,I'm <span>Dhruv Madaan</span> <br>From Haryana,India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/self.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>Hi, I'm Dhruv Madaan, and I'm and Undergraduate Student.When I'm not busy with my university, you can usually find me either creating websites or Playing games.I'm passionate about Mern Stack, and I'm always on the lookout for new and innovative ways to help other's succeed. So whether you're a seasoned pro or just starting, I'm here to help you every step of the way </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link p1" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links p2" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links p3" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Web App Development</li>
+                            <li><span>Java(core & advance)</span><br>Have Made Desktop Based Applications</li>
+                            <li><span>Back-End</span><br>Manipulting the files using node.js</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>working with web development since last year and have made many projects</li>
+                            <li><span>jan,2024-Current</span><br>Working with node.js for backend</li>
+                            <li><span>2020-2023</span><br>Worked on java and made desktop based Applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>Matrix from S.D model School,jagadhri</li>
+                            <li><span>2019-2021</span><br>Diploma from Seth Jai Prakash polytechnic,Damla</li>
+                            <li><span>2021-2024</span><br>Btech in CSE from Seth Jai Prakash Mukand Lal Institute of Engineering and Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services----------- -->
+    <div id="services" class="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I can help you with creating new websites according to your requirements either for free or paid(depends upon the requirements and my availability)</p>
+                    <a href="#portfolio">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Desktop Applications</h2>
+                    <p>I can build Desktop based Applications using Java(swings,mysql,JDBC)</p>
+                    <a href="#portfolio">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Coming soon</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente deserunt possimus vitae voluptate, adipisci odio aliquid officiis voluptas natus ad pariatur vel, tempore doloremque aspernatur amet non animi rem ipsum.</p>
+                    <a href="#portfolio">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- -----------mywork----------------- -->
+
+<div id="portfolio" class="portfolio">
+    <div class="container">
+        <h1 class="sub">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="img/marissa-grootes-flRm0z3MEoA-unsplash.jpg" alt="">
+                <div class="layer">
+                    <h3>Image Search engine</h3>
+                    <p>I've created a simple image search website from scratch by using HTML, CSS, and JavaScript to build a user- friendly interface. The website allows users to search for images based on keywords, and it displays a set of initial images. Users can click on a "Show More" button to load additional images related to their search term.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/dillon-shook-mY3_bvR74fI-unsplash.jpg">
+                <div class="layer">
+                    <h3>Library Management System</h3>
+                    <p>An integrated library management system (LMS) is ERP software that helps in simplifying the daily operations of the library. The purpose of a library management system is to manage & track the daily work of the library such as issuing books, return books, Maintains Stats,etc.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/jason-goodman-m2TU2gfqSeE-unsplash.jpg">
+                <div class="layer">
+                    <h3>Random Quote Generator</h3>
+                    <p>The Random Quote Generator is an online tool that provides users with a random selection of inspiring and motivational quotes. It offers a wide variety of quotes on different topics, sourced from famous personalities, authors, philosophers, and more.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#portfolio" class="btn">See more</a>
+
+    </div>
+</div>
+<!-- --------contact------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>madaandhruv50@gmail.com</i></p>
+                <p><i class="fa-solid fa-phone"></i>**********</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Resume.pdf" download class="btn btn1">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="submit btn btn1">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i>  Made   with  <i class="fa-solid fa-heart"></i>  by  Dhruv</p>
+    </div>
+</div>
+    <script src="code.js"></script>
+    <form name="submit-to-google-sheet">
+    
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzxRH0BfHYC24y7cg2xQDBRPmnFrsHb7M8XOpbJmGOBSfhjjPZGq4vcPIjqYqemAbeDeA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg');
+        
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML='Message sent successfully'
+                setTimeout(() => {
+                    msg.innerHTML=''
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
